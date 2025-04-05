@@ -483,8 +483,40 @@ footer hr
       }
       
       .btn.active {
-        background-color: #0056b3;
+        background-color: #152b42;
       }
+      .youtube-section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #120e0e;
+      }
+      
+      .youtube-section h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      
+      .youtube-section p {
+        font-size: 1rem;
+        color: #fffefe;
+        margin-bottom: 30px;
+      }
+      
+      .youtube-videos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .youtube-videos iframe {
+        width: 100%;
+        max-width: 500px;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      }
+      
       
   
 /* end social icon */
